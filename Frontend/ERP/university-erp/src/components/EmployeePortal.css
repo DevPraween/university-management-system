@@ -39,11 +39,7 @@
 .action-icon-wrapper.purple { background: rgba(168, 85, 247, 0.15); color: #c084fc; }
 .action-icon-wrapper.green { background: rgba(16, 185, 129, 0.15); color: #34d399; }
 
-.action-info h3 {
-  font-size: 1.2rem;
-  color: var(--text-light);
-  margin-bottom: 5px;
-}
+
 
 .action-info p {
   font-size: 0.85rem;
@@ -62,6 +58,12 @@
   flex-direction: column;
   gap: 15px;
   margin-top: 20px;
+}
+
+.action-info h3 {
+  font-size: 1.2rem;
+  color: var(--text-light);
+  margin-bottom: 5px;
 }
 
 .notice-item {
