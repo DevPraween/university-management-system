@@ -11,17 +11,19 @@
   margin-bottom: 25px;
 }
 
+
+
+.action-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
 .action-card {
   display: flex;
   align-items: center;
   gap: 20px;
   padding: 25px;
   transition: transform 0.3s ease;
-}
-
-.action-card:hover {
-  transform: translateY(-5px);
-  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .action-icon-wrapper {
